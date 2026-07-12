@@ -61,6 +61,7 @@ That's pretty much why, since that's basically what my library is, so yeah.
 - [API Reference](#api-reference)
 - [Debugging a Hierarchy](#debugging-a-hierarchy)
 - [Good & Bad Practices](#good--bad-practices)
+- [Contributing](#contributing)
 - [Safety Notes](#safety-notes)
 
 ## Why this exists
@@ -386,6 +387,18 @@ a good thing for reliability, one broken resource can't wreck a whole
 branch's teardown, but it also means you can't catch a cleanup failure the
 normal way. If something in your cleanup absolutely must be verified, do
 that check somewhere other than inside the cleanup function itself.
+
+## Contributing
+
+Bug reports, documentation improvements, performance optimizations, and
+features that strengthen Steward's ownership model are always welcome.
+
+Before opening a pull request that changes the API or Steward's behavior,
+please make sure it fits Steward's philosophy.
+
+Steward has a deliberately opinionated design. New features should support
+its core philosophy of explicit hierarchical ownership rather than turning
+it into a general purpose utility library.
 
 ## Safety Notes
 
