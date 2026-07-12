@@ -17,8 +17,8 @@
 const Ownership: {[any]: {Owner: Steward, Kind: string}} = setmetatable({}, {__mode = "k"}) :: any
 
 --========== Dependencies ==========--
-const Types = require(script.Types)
-const Debug = require(script.Debug)
+const Types = require(script.Parent.Types)
+const Debug = require(script.Parent.Debug)
 
 --========== Primary Types ==========--
 type CleanupFn      = Types.CleanupFn
