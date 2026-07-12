@@ -109,7 +109,7 @@ doc comment. Use `Steward:Dump()`, `Steward:Snapshot()`, and
 ## Quick Start
 
 ```luau
-const Steward = require(ReplicatedStorage.Packages.Steward)
+const Steward = require(ReplicatedStorage.Packages.Steward.init)
 
 const Match = Steward.new("Match")
 
