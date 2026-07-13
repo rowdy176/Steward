@@ -1,10 +1,1 @@
-[package]
-name = "rowdy176/steward"
-description = "Steward is a hierarchical lifetime ownership framework."
-license = "MIT"
-authors = ["rowdy176"]
-version = "0.1.4"
-registry = "https://github.com/UpliftGames/wally-index"
-repository = "https://github.com/rowdy176/Steward"
-realm = "shared"
-exclude = ["aftman.toml"]
+Steward = "rowdy176/steward@0.1.4"
